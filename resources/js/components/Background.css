@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+:root{
+    font-size: 20px;
+    background-color: rgb(36, 36, 36);
+    width: 100% !important;
+    /* background-color: rgb(186, 186, 85); */
+}
+
+/* .navbar{
+    display: flex;
+     justify-content:flex-end;
+} */
+
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+}
+.navbar-box{
+    font-size: 3vmin;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    justify-content: space-between; 
+    border-bottom: 1px solid white;
+    z-index: 1000;
+}
+.navbar-logo{
+    color: rgb(244, 148, 39);
+    font-size: 4vmin;
+    margin-top:.5rem ;
+    margin-left: .4rem;
+    font-family: 'Josefin Sans', cursive;
+    order: -1;
+}
+.navbar{ 
+    /* margin-left:26rem; */
+    /* display: flex; */
+    
+    font-family: 'Josefin Sans', cursive;
+    color: white;
+    /* position: fixed;
+    border: 1px solid red; */
+}
+
+.body{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    /* height: auto; */
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.container{
+    width: 100% !important;
+}
+
+.body-container{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.body-box{
+    margin-left: 25%;
+    margin-top: 8%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.body-title-1{
+    font-size: 4vmin;
+    color: rgb(255, 255, 0);
+}
+
+.body-title-2{
+    font-size: 8vmin;
+    color: rgb(249, 248, 248);
+}
+.logo{
+    color: rgb(243, 168, 149);
+    font-size: 25px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.nav-link:hover{
+    border: 3px solid rgb(242, 242, 242);
+    padding: 3px;
+    border-radius: 5px;
+    color: rgb(235, 233, 121);
+}
+
+.sm-links{
+    margin-top: 10%;
+    font-size: 4.6vmin;
+    position: fixed;
+    /* border: 1px solid red; */
+}
+
+.sm-linkedin{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .8rem;
+    padding-right: .4rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: -6rem;
+    background-color: rgb(78, 78, 207);
+    transition: margin-left 0.8s ease;
+    /* border: 1px solid blue; */
+}
+
+.sm-github{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .8rem;
+    padding-right: .4rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: -6rem;
+    background-color: rgb(156, 156, 163);
+    transition: margin-left 0.8s ease;
+    /* border: 1px solid blue; */
+}
+.sm-instagram{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .8rem;
+    padding-right: .4rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: -6rem;
+    background-color: rgb(152, 29, 134);
+    transition: margin-left 0.8s ease;
+    /* border: 1px solid blue; */
+}
+.sm-gmail{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .8rem;
+    padding-right: .4rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: -6rem;
+    background-color: rgb(207, 179, 78);
+    transition: margin-left 0.8s ease;
+    /* border: 1px solid blue; */
+}
+
+.sm-linkedin:hover{
+    /* transform: scaleX(1); */
+    margin-left: 0;
+}
+.sm-github:hover{
+    /* trasform: scaleX(1); */
+    margin-left: 0;
+}
+
+.sm-instagram:hover{
+    /* transform: scaleX(1); */
+    margin-left: 0;
+}
+
+.sm-gmail:hover{
+    /* transform: scaleX(1); */
+    margin-left: 0;
+}
+
+
+.sm-links p{
+    align-items: center;
+    font-size: 3vmin;
+    margin-right: 2rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+
+.about-me{
+    /* display: flex; */
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 50%;
+    /* padding-bottom: 5rem; */
+    /* border: 1px solid red;  */
+}
+
+.about-me-title{
+    /* border: 1px solid green; */
+    font-size: 5vmin;
+    padding-bottom:3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline rgb(183, 183, 18) 4px;
+    font-family: 'Josefin Sans', cursive;
+}
+.about-me-details{
+    display: flex;
+    flex-direction: row;
+}
+.about-me-section1{
+    width: 35%;
+    font-size: 5vmin;
+    font-family: 'Josefin Sans', cursive;
+    /* border: 1px solid rgb(89, 33, 185); */
+}
+
+.about-me-section2{
+    width: 65%;
+    font-size: 2.5vmin;
+    font-family: 'Josefin Sans', cursive;
+    /* border: 1px solid rgb(28, 13, 106); */
+}
+
+.section-3{
+    margin-top: 25%;
+    margin-left: 20%;
+    
+    font-family: 'Josefin Sans', cursive;
+}
+
+.section-3-title{
+    text-decoration: underline rgb(183, 183, 18) 4px;
+    font-size: 5vmin;
+    
+}
+
+.section-3-logos{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 4%;
+    padding-top: 2%;
+    /* width: 10%; */
+    /* margin: 2% 3% 3% 0; */
+    /* border: 1px solid rgb(115, 229, 21);  */
+    box-shadow:
+    5px 0px 5px rgba(177, 177, 177, 0.2), /* Right side shadow */
+    -5px 0px 5px rgba(163, 162, 162, 0.2), /* Left side shadow */
+    0px -5px 5px rgba(153, 152, 152, 0.2);
+    box-sizing: border-box;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    position: relative;
+}
+.section-3-logos:hover{
+    transform: scale(1.1); /* Increase size by 10% */
+  box-shadow: 
+    20px 0px 20px rgba(0, 0, 0, 0.4), /* Stronger right side shadow */
+    -20px 0px 20px rgba(0, 0, 0, 0.4), /* Stronger left side shadow */
+    0px -20px 20px rgba(0, 0, 0, 0.4); 
+}
+.section-3-logos img{
+    width: 55%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding-bottom: 8%;
+    /* padding: 0 5% 6% 5%; */
+}
+.section-3-logo-des{
+   display: flex;
+   justify-content: center;
+   /* border: 1px solid rebeccapurple; */
+}
+
+.section-3-logo-des p{
+    font-size: 3vmin;
+}
+.section-3-logos img p{
+    font-size: 1vmin;
+    margin: auto;
+    text-align: center;
+}
+
+.section-4{
+    margin-bottom: 4rem;
+}
+
+.contact-me-title{
+    margin-top: 15%;
+    font-size: 5vmin;
+    padding-bottom:3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline rgb(183, 183, 18) 4px;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.contact-me-section1{
+    margin-top: 6%;
+    margin-left: 13%;
+    width: 28%;
+    font-size: 6vmin;
+    font-family: 'Josefin Sans', cursive;
+    /* border: 1px solid red; */
+    /* border: 1px solid rgb(89, 33, 185); */
+}
+
+.contact-me-section2{
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 50%;
+}
+.contact-me-sections{
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    /* Prevent horizontal scroll */
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .navbar-box{
+        font-size: 3vmin;
+        position: fixed;
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        background-color: rgb(36, 36, 36);
+        /* justify-content: space-between;  */
+        border-bottom: 1px solid white;
+        z-index: 1000;
+    }
+
+    /* .navbar-logo{
+        position: fixed;
+    } */
+    #mobileNavbar{
+        border: 1px solid black;
+        background-color: rgb(36, 36, 36);
+        margin-bottom: -1rem;
+        display: flex !important;
+        /* justify-content: space-between; */
+    }
+    .hamburger{
+        text-align: end;
+        margin-right: .5rem;
+        margin-top: .7rem;
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+        /* position: fixed; */
+    }
+    .sm-links {
+        display: none;
+    }
+    
+    .navbar-logo{
+        font-size: 1rem;
+    }
+    .mobile-navbar{
+        /* margin-left: -21.3rem; */
+        padding-top: 2rem;
+        /* margin-left: .5rem; */
+        background-color: rgb(53, 53, 53);
+        /* width: 100vh; */
+        /* height: 100vh; */
+        display: block;
+       
+        /* position: fixed; */
+        border: 1px solid rgb(53, 53, 53);
+        color: rgb(255, 255, 255);
+        font-family: 'Josefin Sans', cursive;
+        /* z-index: 1000; */
+    }
+
+    .mobile-navbar a h4{
+        padding-top: 5px;
+        padding-left: 5px;
+        width: 40%;
+        font-size: 1.3rem;
+        border: 2px solid rgb(72, 142, 207);
+        border-radius: 5px;
+        animation: popupAnimation .5s ease-out forwards;
+    }
+
+    .mobile-navbar a h4:active{
+        border: 2px solid green;
+    }
+
+    @keyframes popupAnimation {
+        0% {
+            opacity: 0;
+            transform: translateX(-50px); /* Initially off-screen */
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(10px); /* Final position */
+        }
+    }
+    .container {
+        width: 100% !important;
+        max-width: 100%; /* Ensure container doesn't exceed screen width */
+        margin: 0 auto; /* Center the container */
+        padding: 0 15px; /* Add padding for mobile devices */
+        box-sizing: border-box;
+    }
+
+    .navbar-box {
+        width: 100%;
+    }
+
+    .body-title-2 {
+        font-size: 1.5rem;
+        width: 100%;
+        color: rgb(249, 248, 248);
+    }
+
+    .body-box {
+        width: 90% !important;
+        margin-left: 5%;
+    }
+
+    .body-container h2 {
+        font-size: 1rem;
+    }
+
+    .body-box div p {
+        margin-top: 5%;
+        font-size: .8rem;
+    }
+
+    .about-me {
+        position: relative;
+        margin-top: 27rem;
+        width: 90%;
+        margin-left: 6%;
+    }
+
+    .about-me-details {
+        display: block;
+    }
+
+    .about-me-title {
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .about-me-section1 {
+        margin-top: .5rem;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .about-me-section2 {
+        margin-top: 1rem;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .section-3 {
+        margin-left: 10%;
+    }
+
+    .section-3-logos {
+        width: 45%;
+        margin-left: 0px;
+    }
+
+    .section-3-logos img {
+        width: 45%;
+    }
+
+    .section-3-title {
+        font-size: 1.5rem;
+    }
+
+    .section-3 p {
+        font-size: .8rem;
+        padding-bottom: .5rem;
+    }
+
+    .contact-me-title {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact-me-sections {
+        display: block;
+    }
+
+    .contact-me-section1 {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .contact-me-section2 {
+        margin-top: 2rem;
+        margin-left: 10%;
+        width: 85%;
+    }
+
+    .contact-me-section2 small {
+        display: none;
+    }
+
+    .contact-me-section2 input {
+        width: 80%;
+        height: 1.7rem;
+        margin-bottom: 1rem;
+    }
+}
